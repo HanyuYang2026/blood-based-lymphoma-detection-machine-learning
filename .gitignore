@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Keep only the public synthetic example in data/.
+data/*
+!data/README.md
+!data/example_input.xlsx
+
+# New runs may contain sensitive row-level inputs and predictions.
+results/run_*/
+
+# Common private-data locations.
+private_data/
+study_data/

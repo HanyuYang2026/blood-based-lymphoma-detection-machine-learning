@@ -1,0 +1,5 @@
+﻿Metric,Estimate,CI95_Lower,CI95_Upper,Method,Resampling_unit,N_bootstrap,Seed
+AUC_OOF,0.8274999999999999,0.7025358628996718,0.9524641371003282,DeLong normal-approximation CI of pooled OOF AUC,independent_row,,
+Sensitivity,0.7,0.5,0.9,Approximate stratified percentile bootstrap of fixed OOF predictions,independent_row,2000.0,20260929.0
+Specificity,0.7,0.5,0.9,Approximate stratified percentile bootstrap of fixed OOF predictions,independent_row,2000.0,20260929.0
+Accuracy,0.7,0.55,0.825,Approximate stratified percentile bootstrap of fixed OOF predictions,independent_row,2000.0,20260929.0

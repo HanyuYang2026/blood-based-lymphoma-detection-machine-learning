@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Machine-learning analyses for blood-based lymphoma detection"
+version: "1.0.0"
+type: software
+license: MIT
+abstract: >-
+  A reproducible Python workflow for logistic-regression classification,
+  nested stratified cross-validation, ROC analysis, confidence intervals,
+  and threshold-based performance assessment for blood-based lymphoma
+  detection. The repository includes only synthetic demonstration data and
+  outputs; no patient-level study data are included.
+authors:
+  - family-names: Yang
+    given-names: Hanyu
+    affiliation: "Nanyang Technological University"
+  - family-names: Feng
+    given-names: Lixue
+    affiliation: "Nanfang Hospital, Southern Medical University"
+repository-code: "https://github.com/HanyuYang2026/blood-based-lymphoma-detection-machine-learning"
+keywords:
+  - machine learning
+  - lymphoma detection
+  - logistic regression
+  - ROC analysis
+  - cross-validation
